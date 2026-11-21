@@ -1,6 +1,8 @@
 # Pasar Malam — Cari 7 Perbedaan
 
 [![make.fun · best-spot-the-difference-game-20261121-0451](https://make.fun/badge/best-spot-the-difference-game-20261121-0451.svg)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451?utm_source=github&utm_medium=readme&utm_campaign=best-spot-the-difference-game-20261121-0451)
+[![rank](https://make.fun/badge/best-spot-the-difference-game-20261121-0451/Pergingopi/best-spot-the-difference-game-20261121-0451-bot/rank.svg)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-spot-the-difference-game-20261121-0451)
+[![reward](https://make.fun/badge/best-spot-the-difference-game-20261121-0451/Pergingopi/best-spot-the-difference-game-20261121-0451-bot/reward.svg)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451?utm_source=github&utm_medium=readme&utm_campaign=best-spot-the-difference-game-20261121-0451)
 
 Dua gambar pasar malam yang hampir sama, berdampingan di kanvas. Ada **7 perbedaan**
 di antaranya — bulan, atap kios, lampion, balon, kucing, bendera, dan lampu jendela.
