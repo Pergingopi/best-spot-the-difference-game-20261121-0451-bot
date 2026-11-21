@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pasar Malam — Cari 7 Perbedaan</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #171022; color: #f6ead2;
+    font-family: system-ui, -apple-system, sans-serif; }
+  #hud { max-width: 1280px; margin: 0 auto; padding: 14px 20px 6px;
+    display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; }
+  #hud h1 { font-size: 22px; margin: 0 12px 0 0; color: #ffd76a; }
+  #hud .stat { font-size: 17px; }
+  #hud .stat b { color: #ffd76a; }
+  #hud button { font: inherit; font-size: 16px; padding: 8px 16px; border: 0;
+    border-radius: 8px; background: #ffd76a; color: #241645; cursor: pointer; }
+  #hud button.secondary { background: #3a2a63; color: #f6ead2; }
+  #hud button:hover { filter: brightness(1.1); }
+  #wrap { max-width: 1280px; margin: 0 auto; padding: 0 20px 16px; }
+  #game { width: 100%; height: auto; display: block; touch-action: none;
+    background: #171022; border-radius: 8px; }
+  #status { position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip-path: inset(50%); white-space: nowrap; }
+  #help { max-width: 1280px; margin: 0 auto; padding: 0 20px 20px;
+    color: #cbb8ff; font-size: 14px; }
+</style>
+</head>
+<body>
+<div id="hud">
+  <h1>Pasar Malam — Cari 7 Perbedaan</h1>
+  <span class="stat">Waktu <b id="timer">00:00</b></span>
+  <span class="stat">Skor <b id="score">0</b></span>
+  <span class="stat">Ketemu <b id="found">0/7</b></span>
+  <button id="startBtn" type="button">Mulai</button>
+  <button id="hintBtn" type="button" class="secondary">Petunjuk (H) −50</button>
+  <button id="restartBtn" type="button" class="secondary">Main Lagi (R)</button>
+</div>
+<div id="wrap">
+  <canvas id="game" width="1280" height="560"
+    aria-label="Pasar Malam: dua gambar pasar malam bersebelahan dengan 7 perbedaan. Klik perbedaannya."></canvas>
+</div>
+<p id="help">Cara main: klik perbedaan antara Gambar A dan Gambar B. Bisa juga pakai
+keyboard — tombol panah menggerakkan kursor, Spasi menandai, H minta petunjuk,
+R mulai dari awal. Klik salah −25 poin. Selesaikan secepat mungkin untuk bonus waktu.</p>
+<p id="status" role="status" aria-live="polite"></p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
